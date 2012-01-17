@@ -1,3 +1,7 @@
+# Demo application for Ruby and Rails installation
+
+[* A simple demo application*](sujith.com)
+by [Sujith](sujith.com)
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
