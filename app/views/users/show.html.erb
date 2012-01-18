@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+
+  <h1><%= @user.name %></h1>
+  <%= @user.email %>
+
+<h2>Mia Microposts</h2>
+  <% @microposts.each do |m|%>
+    - <%= m.content %><br />
+  <% end %>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
